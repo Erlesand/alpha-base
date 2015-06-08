@@ -1,0 +1,30 @@
+img.calendar.picture { width: 100% }
+.calendar.month { text-align: center; }
+.sunday, .red { color: rgb(169,36,36); }
+
+.holiday { text-align: center; }
+
+table#calendar { width: 100% }
+
+#calendar .holiday, #calendar .normal { border-bottom: 1px solid grey }
+#calendar th { width: 40px; background: rgb(169,36,36); color: white; padding: 5px 0 }
+.calendar.box { border: 1px solid #999; border-radius: 5px; position: relative; }
+#calendar { font-size: 12px; }
+#calendar td { padding: 2px }
+#calendar td.date div.calendar { height: 70px; }
+#calendar .nameday { padding-left: 3px; clear: left; color: black }
+#calendar tbody tr td:nth-child(1) { text-align: center; font-weight: bold }
+
+a.prev { float: left }
+a.next { float: right }
+
+h1.month { line-height: 1em }
+a.prev, a.next { text-decoration: none; font-size: 18px; line-height: 32px }
+#calendar span.date { float: right; margin-right: 3px; }
+#calendar .flag { position: absolute; bottom: 0; right: 2px; line-height: 1em; margin-bottom: 2px }
+
+.moon { color: black; margin: 0 0 0 1px; float: left; padding-bottom: 2px }
+.moon.full:after { content: "\1F315" }
+.moon.new:after { content: "\1F311" }
+.moon.first:after { content: "\1F313" }
+.moon.last:after { content: "\1F317" }

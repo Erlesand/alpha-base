@@ -1,0 +1,57 @@
+fieldset { background: #fafafa; border-radius: 5px 0; padding: 0.75em }
+legend { background: white; padding: 4px 10px; border: 1px solid #CCC; color: #999; border-radius: 5px 0 }
+
+.success, .alert, .error, .notice, .info { padding: 0.8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error, .alert { background: #fbe3e4; color: #8a1f11; border-color: #fbc2c4; }
+.notice     { background: #fff6bf; color: #514721; border-color: #ffd324; }
+.success    { background: #e6efc2; color: #264409; border-color: #c6d880; }
+.info       { background: #d5edf8; color: #205791; border-color: #92cae4; }
+.error a, .alert a { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+.info a      { color: #205791; }
+
+input.red[type='submit']:hover { background: white; border: 1px solid rgb(169,36,36); border-radius: 5px; padding: 4px 10px; color: rgb(169,36,36) }
+input.red[type='submit'] { background: rgb(169,36,36); border: 1px solid rgb(169,36,36); border-radius: 5px; padding: 4px 10px; color: white }
+
+form { padding-bottom: 1em }
+form label.lbl { border: 1px solid #CCC; border-radius: 5px; margin-right: 2px; background: #f1f1f1; padding: 2px 8px; width: 80px; display: inline-block; float: left; font-size: 10px; height: 22px; line-height: 22px; font-variant: small-caps; text-transform: uppercase }
+form label.lbl + input.withButton { border-top-right-radius: 0px; border-bottom-right-radius: 0px; float: left; border-right: none }
+form label.lbl + input { border: 1px solid #ccc; border-left: none; padding: 2px 8px; border-radius: 5px }
+form label.lbl + input + .search, form label ~ .search { background: url("../img/search.png"); background-size: 20px 20px; background-position: center center; background-repeat: no-repeat; border: 1px solid #ccc; width: 28px; height: 28px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; background-color: #f1f1f1 }
+form label.lbl + input + .search:hover, form label ~ .search:hover { background-color: #ccc; }
+
+form label.lbl ~ select { border: 1px solid #ccc; -webkit-appearance: none; -moz-appearance: none; appearance: none; border-radius: 0; padding: 2px 8px; float: left; border-left: none; border-right: none }
+form label.lbl ~ select:last-child { border-right: 1px solid #ccc; border-top-right-radius: 5px; border-bottom-right-radius: 5px }
+
+form label.textarea { height: 200px; border-right: none }
+form label.lbl + textarea { width: 600px; height: 200px; border: 1px solid #ccc; border-radius: 5px; padding: 2px 5px }
+
+form .last { border-top-right-radius: 5px; border-bottom-right-radius: 5px; float: none; border-right: 1px solid #ccc }
+
+form .separator { float: left; padding: 2px 8px; border: 1px solid #ccc; background: white; border-left: none; border-right: none }
+
+form .button { border: 1px solid rgb(125,28,31); width: 100px; text-transform: lowercase; font-variant: small-caps; color: white; border-radius: 5px; background: rgb(169,36,36) }
+form .button:hover { background: rgb(125,28,31) }
+
+form .row { clear: right }
+
+form .search.full { background: url("../img/search.png"); background-size: 18px 18px; background-position: right 4px center; background-repeat: no-repeat; border: 1px solid #ccc; height: 28px; background-color: #f1f1f1; width: 96px; border-radius: 5px; color: #666; font-variant: small-caps; text-transform: lowercase; padding-right: 20px }
+form .search.full:hover { background-color: #ccc }
+
+.checkbox { position: relative; display: inline-block; width: 80px; height: 24px; padding: 2px 0 }
+.checkbox input { width: 80px; position: absolute; left: 0; top: 0; z-index: 1; height: 28px; border: none; outline: none; padding: 0; margin: 0; opacity: 0; }
+.checkbox input + span { border: 1px solid #ccc; background: white; padding: 2px 0; width: 79px; display: inline-block; text-align: center; font-variant: small-caps; text-transform: lowercase; position: absolute; left: 0; top: 0; border-left: none }
+form .row .checkbox:last-child input + span { border-top-right-radius: 5px; border-bottom-right-radius: 5px }
+.checkbox input:checked + span { background: rgb(125,28,31); color: white }
+.checkbox input:hover { cursor: pointer; background: rgb(125,28,31); color: white }
+.checkbox input:hover + span { background: rgb(125,28,31); color: white }
+
+label.radio-image:nth-child(4n + 1) imgs { float: none; clear: right !important; padding: 1em; margin: 1em; clear: both }
+label.radio-image > input { visibility: hidden; position: absolute; }
+label.radio-image > input + img { border: 2px solid transparent; border-radius: 5px; cursor: pointer; filter: grayscale(100%); -webkit-filter: grayscale(90%); filter: grayscale(90%); }
+label.radio-image > input:checked + img { border-color: white; -webkit-filter: grayscale(0%); filter: grayscale(0%); }
+
+.img-group { padding-left: 100px }
+form label.error-input { background-color: #fbe3e4; color: #8a1f11; border-color: #fbc2c4 }

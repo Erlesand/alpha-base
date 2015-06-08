@@ -1,0 +1,31 @@
+article#user { padding-left: 0 !important; padding-right: 0 !important; padding-bottom: 0 !important; margin: 0 !important; width: 100%; min-height: 721px; }
+
+#user-panel { width: 200px; border-right: 1px solid #999; line-height: 36px; background: #bbb; padding: 1em; margin-top: -10px; display: inline-block; float: left }
+
+#user-panel .name { font-variant: small-caps; text-transform: lowercase; text-shadow: 1px 1px 3px #666; font-size: 1.3em; color: #666; text-align: center }
+
+#user-panel .view, #user-panel .add, #user-panel .edit, #user-panel .delete { margin-left: 20px }
+#user-panel .head, #user-panel .view, #user-panel .add, #user-panel .edit, #user-panel .delete { background-repeat: no-repeat; padding-left: 40px }
+#user-panel .head { margin: 1.5em -1em 0.5em; padding: 0 1em 0.5em; border-bottom: 1px solid rgb(169,96,36); color: rgb(169,96,36); font-weight: bold; padding-left: 50px }
+
+#user-panel #user-panel-movies .head { background-image: url('../img/user/movie.png'); background-position-x: 10px }
+#user-panel #user-panel-movies .view { background-image: url('../img/user/movie-view.png') }
+#user-panel #user-panel-movies .add { background-image: url('../img/user/movie-add.png') }
+#user-panel #user-panel-movies .edit { background-image: url('../img/user/movie-edit.png') }
+#user-panel #user-panel-movies .delete { background-image: url('../img/user/movie-delete.png') }
+
+#user-panel #user-panel-accounts .head { background-image: url('../img/user/account.png'); background-position-x: 10px }
+#user-panel #user-panel-accounts .view { background-image: url('../img/user/account-view.png') }
+#user-panel #user-panel-accounts .add { background-image: url('../img/user/account-add.png') }
+#user-panel #user-panel-accounts .edit { background-image: url('../img/user/account-edit.png') }
+#user-panel #user-panel-accounts .delete { background-image: url('../img/user/account-delete.png') }
+
+#user-panel #user-panel-news .head { background-image: url('../img/user/news.png'); background-position-x: 10px }
+#user-panel #user-panel-news .view { background-image: url('../img/user/news-view.png') }
+#user-panel #user-panel-news .add { background-image: url('../img/user/news-add.png') }
+#user-panel #user-panel-news .edit { background-image: url('../img/user/news-edit.png') }
+#user-panel #user-panel-news .delete { background-image: url('../img/user/news-delete.png') }
+
+#user-section .profile { display: inline-block; text-align: center; padding: 1em }
+
+.wrapper-panel { margin: 1em 10% 0 250px }

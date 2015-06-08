@@ -1,0 +1,20 @@
+.button { padding: 5px 10px; width: 120px; display: inline-block; text-align: center; border-radius: 5px; text-decoration: none; background: rgb(169,36,36); color: white }
+.button:hover { background: rgb(125,28,31); color: white }
+
+ul.dice { margin: 0; padding: 0; list-style: none; display: inline; }
+ul.dice li { display: inline-block; padding: 0; margin: 0 4px 0 0; width: 40px; height: 40px; background: url('../img/dice-faces.jpg') no-repeat; border: 1px solid black; line-height: 40px; font-size: 24px; text-align: center;  box-shadow: 2px 2px 3px #999; border-radius: 5px; }
+
+ul.dice li.dice-6 { background-position: -200px 0px; }
+ul.dice li.dice-5 { background-position: -160px 0px; }
+ul.dice li.dice-4 { background-position:  -120px 0px; }
+ul.dice li.dice-3 { background-position:  -80px 0px; }
+ul.dice li.dice-2 { background-position:  -40px 0px; }
+ul.dice li.dice-1 { background-position:    0px 0px; }
+
+.info { display: inline-block; border: 1px solid black; border-radius: 5px; width: 80px; height: 80px; margin-right: 1em }
+.info .header { font-size: 14px; text-align: center; background: #bbb; color: white; line-height: 20px; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.info .text { font-size: 40px; text-align: center }
+
+#form-dice label { display: inline-block; width: 100px; }
+#form-dice input[type='text'] { border: 1px solid rgb(169,36,36); border-radius: 3px; padding: 2px 4px }
+#form-dice input[type='text'][readonly='readonly'] { border: none; padding: 2px 4px; color: #999; background: none }

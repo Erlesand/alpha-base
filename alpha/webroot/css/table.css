@@ -1,0 +1,50 @@
+table { }
+table thead { color: white; background: rgb(169,36,36) }
+table thead th { padding: 4px 8px }
+table thead th a { color: white }
+table thead td { }
+
+table tbody td { text-align: center; }
+table tbody td { padding: 5px; border: 1px solid #ccc }
+table tbody tr:nth-child(odd) { background: rgba(211,220,223,0.4); }
+table tbody tr:nth-child(even) { background: rgba(241,244,245,0.4); }
+table tbody tr:hover { background: rgba(211,220,223,0.8); }
+table tbody:before { line-height: 5px; content:"\0"; display:block; }
+
+table td .keyword { border: 1px solid #ccc; padding: 4px 8px; border-radius: 5px; margin: 0 2px; background: #e1e1e1; display: block }
+
+table tbody .price { font-size: 1.5em }
+table tbody .price:before { content: '$'; display: inline }
+
+.pagination.hits { text-align: right; margin: 0; padding: 1em 0 }
+.pagination.hits .label { border: 1px solid #ccc; border-radius: 5px; border-top-right-radius: 0; border-bottom-right-radius: 0; padding: 2px 8px; background: #f1f1f1 }
+.pagination.hits .hit { border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; padding: 2px 4px; }
+.pagination.hits .hit:hover { background: #f1f1f1; }
+.pagination.hits .hit:last-child { border-right: 1px solid #ccc; border-top-right-radius: 5px; border-bottom-right-radius: 5px }
+.pagination.hits .hit.current { background: rgb(125,28,31); color: white }
+
+.pagination.pages { text-align: center; margin: 0; padding: 1em 0 }
+
+.pagination.pages .pages.first, .pagination.pages .pages.previous { float: left; }
+.pagination.pages .pages.first a, .pagination.pages .pages.previous a { text-decoration: none; border: 1px solid rgb(125,25,31); border-top-left-radius: 5px; border-bottom-left-radius: 5px; padding-right: 5px; margin-right: 10px }
+.pagination.pages .pages.first a:before, .pagination.pages .pages.previous a:before { background: rgb(125,28,31); padding: 1px 2px; color: white; border-top-left-radius: 5px; border-bottom-left-radius: 5px; margin-right: 4px }
+
+
+.pages.first a:before { content: "⇐" }
+.pages.previous a:before { content: "←" }
+
+.pagination.pages .pages a:hover { background: rgb(125,25,31); color: white; border-color: rgb(125,25,31) }
+
+.pagination.pages .pages.last, .pagination.pages .pages.next { float: right; }
+.pagination.pages .pages.last a, .pagination.pages .pages.next a { text-decoration: none; border: 1px solid rgb(125,25,31); border-top-right-radius: 5px; border-bottom-right-radius: 5px; padding-left: 5px; margin-left: 10px }
+.pagination.pages .pages.last a:after, .pagination.pages .pages.next a:after { background: rgb(125,28,31); padding: 1px 2px; color: white; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-left: 4px }
+
+.pages.last a:after { content: "⇒" }
+.pages.next a:after { content: "→" }
+
+a.pages { border: 1px solid rgb(125,25,31); text-decoration: none; padding: 0 5px; border-right: none; }
+.pages.list a.pages:first-child { border-top-left-radius: 5px; border-bottom-left-radius: 5px }
+.pages.list a.pages:last-child { border-right: 1px solid rgb(125,28,31); border-top-right-radius: 5px; border-bottom-right-radius: 5px }
+.pages.list a.pages.current { background: rgb(125,28,31); color: white }
+
+table .full { width: 100%; text-align: left }
